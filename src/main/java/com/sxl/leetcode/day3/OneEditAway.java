@@ -1,4 +1,8 @@
 package com.sxl.leetcode.day3;
+
+import java.text.SimpleDateFormat;
+import java.util.Date;
+
 /**
  * Date: 2020/4/29 15:54
  * Author: sxl
@@ -21,8 +25,9 @@ public class OneEditAway {
         String s1 = "hadoop";
         String s2 = "hadooopp";
         String s3 = "hdaoopd";
-        System.out.println(oneEditAway(s1,s3));
-
+//        System.out.println(oneEditAway(s1,s3));
+        String date = new SimpleDateFormat("yyyy-MM-dd").format(new Date());
+        System.out.println(new Date());
     }
 
     public static boolean oneEditAway(String s1,String s2){
