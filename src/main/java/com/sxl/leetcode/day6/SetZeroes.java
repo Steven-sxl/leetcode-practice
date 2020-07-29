@@ -25,7 +25,7 @@ public class SetZeroes {
     }
 
     //方法一：
-     public static void setZeros1(int[][] matrix){
+    public static void setZeros1(int[][] matrix){
         boolean[] row = new boolean[matrix.length];
         boolean[] col = new boolean[matrix[0].length];
         for (int i= 0;i<matrix.length;i++){
@@ -53,6 +53,6 @@ public class SetZeroes {
                 }
             }
         }
-         System.out.println(Arrays.deepToString(matrix));
-     }
+        System.out.println(Arrays.deepToString(matrix));
+    }
 }
