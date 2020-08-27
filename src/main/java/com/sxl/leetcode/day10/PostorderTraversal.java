@@ -43,10 +43,10 @@ public class PostorderTraversal {
         while (!stack.isEmpty()){
             TreeNode node = stack.pollLast();
             output.addFirst(node.val);
-            if (root.left != null){
+            if (node.left != null){
                 stack.add(node.left);
             }
-            if (root.right != null){
+            if (node.right != null){
                 stack.add(node.right);
             }
         }
